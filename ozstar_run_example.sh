@@ -11,4 +11,4 @@
 
 module load anaconda3/5.0.1
 
-python ppxf_kinematics_example_sdss.py
+python ppxf_kinematics_example_sauron.py
