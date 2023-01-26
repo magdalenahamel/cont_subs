@@ -6,6 +6,12 @@
 #SBATCH -o outfile  # send stdout to outfile
 #SBATCH -e errfile  # send stderr to errfile
 #SBATCH -t 0:01:00  # time requested in hour:minute:second
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=magdalena.hamel@gmail.com
 
-module load python
+#SBATCH --account=oz088
+
+module load anaconda3/5.0.1
+source activate ppxf
+
 python hello.py
