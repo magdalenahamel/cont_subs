@@ -10,6 +10,5 @@
 #SBATCH --account=oz088
 
 module load anaconda3/5.0.1
-source activate ppxf
 
-python hello.py
+python ppxf/ppxf_kinematics_example_sdss.py
