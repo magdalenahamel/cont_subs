@@ -103,4 +103,9 @@ for j, file in enumerate(ssp_lib):
     ssp_metals.append(file[-11:-7])
 
 print('Templates shape: ', templates.shape)
+ssp_lamrange, templates, ssp_ages, ssp_metals
+
+## prepare templates
+
+templates, ssp_logLam, gas_names, line_wave, component, gas_component, temp_dim
 
